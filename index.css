@@ -1,0 +1,102 @@
+.header{
+  display:flex;
+  justify-content: space-between;
+  border: 1px solid black;
+   
+}
+.Logo{
+    width:200px;
+}
+.nav-items{   
+    padding: 0 10px 0;
+    width: auto;
+}
+.nav-items > ul{
+    font-size:24px;
+    display:flex;
+    list-style-type: none;
+}
+.nav-items > ul > li{
+    padding:10px;
+    margin:10px;
+}
+.res-card{
+    margin:5px;
+    padding:5px;
+    width:200px;
+    height:420px;
+   
+}
+.res-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+.search{
+    padding:30px;
+}
+/* .res-logo{
+    width:100%;
+} */
+.res-logo {
+    width: 200px; /* Specify your desired width */
+    height: 170px; /* Specify your desired height */
+}
+.res-card:hover{
+    cursor:pointer;
+    border: 1px solid black;
+}
+.filter-btn{
+    margin: 10px;
+}
+     .shimmer-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .shimmer-card {
+        width: 200px;
+        height: 300px; /* Adjust height as needed */
+        background-color: #f0f0f0; /* Placeholder background color */
+        margin: 10px; /* Adjust margin as needed */
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .shimmer {
+        position: absolute;
+        top: 0;
+        left: -50%;
+        width: 200%;
+        height: 100%;
+        background: linear-gradient(to right, transparent 0%, #f0f0f0 50%, transparent 100%);
+        animation: shimmer-animation 2s infinite linear;
+      }
+      
+      @keyframes shimmer-animation {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+      .Login {
+        padding: 0px 20px; /* Adjust padding as needed */
+        font-size: 14px; /* Adjust font size as needed */
+        background-color: #a6bed6; /* Blue color, you can change it */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .Login:hover {
+        background-color: #0056b3; /* Darker blue color on hover, you can change it */
+      }
+      
+      .Login:focus {
+        outline: none;
+      }
+.filter{
+    display:flex;
+}
